@@ -1,0 +1,215 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+/* ------------------------ */
+/* -----BASIC ELEMENTS----- */
+/* ------------------------ */
+
+h1,h2,h3,h4,h5,h6{
+	font-family:'Raleway';
+	color:#333333;
+	font-size:2em;
+	text-align: center;
+	text-transform:uppercase;}
+
+h1 {font-size:35px;}
+
+p {	font-family:'Lato';
+	color:#555555;
+	text-align: center;
+	line-height: 30px}
+
+hr {
+	border:1px solid #333;
+	width:500px;
+	opacity:0.3;}
+/* ------------------------- */
+/* -----GENERIC CLASSES----- */
+/* ------------------------- */
+
+.container-fluid{	background-color:#f5f5f5;}
+
+.container { padding-bottom:50px;}
+
+.container h1{	margin-top:60px;}
+
+.divider {
+	background-size: cover;
+	background-position: center;
+	padding:110px 0 85px 0;}
+
+.divider hr {border-color:white;opacity:0.5;}
+
+.divider p,.divider h1{
+	color:white;}
+
+ul:not(.notSocial) a{ color:deepskyblue;}
+ul:not(.notSocial) a:hover{ color:firebrick;transition-duration: 0.3s;}
+
+.notTransformed {text-transform:none;}
+
+/* ----------------------- */
+/* ---------LAYOUT-------- */
+/* ----------------------- */
+
+/* ----NAVBAR----- */
+
+.navbar {
+	background-color:#222;
+	height:40px;
+	font-family:'Lato';
+	border-bottom:1px solid black;}
+
+.navbar i{font-size:20px;color:dodgerblue}
+
+.navbar a { color:#999;}
+
+.navbar-nav a:hover {color:white !important;transition-duration: 0.3s;}
+
+/* ----HEADER----- */
+
+.header {
+	background-image:url(img/header_bg.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-top:50px;
+	padding:100px 0 150px 0;}
+
+.header i{
+	color:white;
+	display: block;
+	font-size:120px;
+	margin-bottom:20px;}
+.header p {
+	font-size:2em; color:white;}
+
+.header h1{
+	font-size:3em; color:white;margin-bottom:30px}
+
+/* ----FEATURES----- */
+
+.features .col-md-4{
+	padding:20px;
+}
+
+.features i{
+	display: block;
+	font-size:1.7em;
+	color:#555555;
+	padding:25px;}
+
+.features p {
+	padding:20px;
+	margin-bottom:20px;}
+
+/* ----ABOUT----- */
+
+.about { }
+
+/* ----DIVIDER 1----- */
+
+.divider1{
+	background-image: url(img/bg/divider1.jpg);}
+
+/* ----SERVICES----- */
+
+.services p{ padding:15px; text-align: left;}
+
+.services { }
+
+/* ----DIVIDER 2----- */
+
+.divider2{
+	background-image: url(img/bg/divider2.jpg);
+}
+
+/* ----TEAM----- */
+.team div {
+	margin-top:30px;}
+
+.team h5 { font-size:20px;font-weight:bold;padding:10px 0 5px 0;}
+
+.team ul { padding-bottom:10px;}
+
+.team li { font-size:20px;}
+
+/* ----VACANCY----- */
+
+.vacancy .col-md-7{ padding-top:50px; }
+
+.vacancy .col-md-4 {padding:40px;}
+
+.vacancy p, .vacancy h2{ padding:15px;}
+
+.vacancy button{
+	font-family:'Lato';
+	letter-spacing:1px;}
+
+/* ----DIVIDER 3----- */
+
+.divider3 {
+	background-image: url(img/bg/divider3.jpg);}
+
+/* ----PORTFOLIO----- */
+.portfolio {padding-bottom:90px}
+
+.portfolio div { padding:0px;margin:5px 0px;}
+
+.portfolio img { width:100%;}
+
+/* ----DIVIDER 4----- */
+
+.divider4 {
+	background-image: url(img/bg/divider4.jpg);}
+
+/* ----BLOG----- */
+
+.blog {}
+
+.blog .col-md-2{background-color: black;height: 400px;}
+.blog img {width:70px;margin-top:20px}
+.blog h5, .blog h6 {font-size: 1em;color:white;padding:5px}
+
+.blog .col-md-4{background-color: #F2F2F2;height: 400px;}
+.blog h2{padding:20px 0 0 10px;text-align: left;}
+.blog p{padding:10px;text-align: left;}
+
+/* ----DIVIDER 5----- */
+
+.divider5{
+	background-image: url(img/bg/divider5.jpg);}
+
+.divider5 p{
+	font-size:1.5em;line-height: 44px;}
+.divider5 ul {margin-top: 20px;font-size:30px;}
+
+.divider5 a:hover{ color:crimson;transition-duration: 0.2s;}
+
+/* ----CONTACT----- */
+.contact h3 {font-size:1.4em;padding-bottom: 10px;}
+
+.contact  p, .contact div h3{
+	text-align: left;}
+.contact i{font-size:20px;width:30px;text-align: center;}
+
+.contact input {
+	border:1px solid gray;
+	border-radius:3px;
+	font-family:'Lato';
+	margin:10px 0px;
+	padding:5px;}
+.contact button{display: block;margin:10px 0;letter-spacing: 1px;}
+
+/* ----FOOTER----- */
+
+.footer {background-color: black;color:white;padding:30px}
+
+.footer p{ color:white;font-size:20px}
+.footer a:hover{ text-decoration: none;color:firebrick;transition-duration: 0.4s;}
+
+
